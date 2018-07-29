@@ -1,5 +1,5 @@
 {
-  "name": "varta",
+  "name": "vaarta",
   "version": "0.0.1",
   "description": "Conversation effect over typing effect for shabdawali js",
   "main": "src/varta.js",
@@ -8,10 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amitguptagwl/varta.git"
+    "url": "git+https://github.com/amitguptagwl/vaarta.git"
   },
   "keywords": [
-    "varta",
     "chat",
     "talk",
     "conversation",
@@ -22,7 +21,7 @@
   "author": "Amit Kumar Gupta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/amitguptagwl/varta/issues"
+    "url": "https://github.com/amitguptagwl/vaarta/issues"
   },
-  "homepage": "https://github.com/amitguptagwl/varta#readme"
+  "homepage": "https://github.com/amitguptagwl/vaarta#readme"
 }
