@@ -1,10 +1,10 @@
 {
   "name": "vaarta",
-  "version": "0.0.1",
-  "description": "Conversation effect over typing effect for shabdawali js",
+  "version": "1.0.0",
+  "description": "Talking effect over typing effect using shabdawali js",
   "main": "src/varta.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bundle": "browserify src/vaarta.js -s Vaarta > dist/vaarta.js;"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,9 @@
   "bugs": {
     "url": "https://github.com/amitguptagwl/vaarta/issues"
   },
-  "homepage": "https://github.com/amitguptagwl/vaarta#readme"
+  "homepage": "https://github.com/amitguptagwl/vaarta#readme",
+  "dependencies": {
+    "browserify": "^16.2.2",
+    "shabdawali": "^2.1.0"
+  }
 }
