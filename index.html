@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <!-- <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css"> -->
+            <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+            <script src="static/js/jquery-3.2.1.min.js"></script>
+            <script src="dist/vaarta.js" ></script>
+            <style>
+                .chatbox {
+                    font-family: 'Open Sans Condensed', sans-serif;
+                    display: block;
+                    width: 100%;
+                    height: 40px;
+                    font-size: 2em;
+                }
+            </style>
+    </head>
+    <body>
+        <div class="chatbox">
+            <strong>Husband: </strong><span id="amit" ></span>
+        </div>
+        <div class="chatbox">
+            <strong>Wife: </strong><span id="nushi"></span>
+        </div>
+        <script>
+        
+            var vaarta;
+            $(document).ready(function(){
+                vaarta  = new Vaarta();
+
+                /* vaarta.add("amit", document.getElementById("amit"), {
+                    typoEffect: true,
+                    deleteEffect : false
+                });
+                vaarta.add("nushi", document.getElementById("nushi") , {
+                    deleteEffect : false
+                });
+
+                vaarta.speak("amit", "Nushi! come I'll show you some magic.", 1000)
+                            .speak("nushi", "what is this papa?")
+                            .and("amit", "See I can type without touching the keyboard")
+                            .and("nushi", "wow!. ", 1000)
+                            .and("nushi", "How is this happening?", 5000)
+                            .speak("amit", ":)", 8000)
+                            .speak("amit", "I've actually written a program for this.", 100) */
+
+                vaarta.add("Husband", document.getElementById("amit"), {
+                    typoEffect: true,
+                    deleteEffect : false,
+                    deleteSpeed: 0
+                });
+                vaarta.add("Wife", document.getElementById("nushi") , {
+                    deleteEffect : false,
+                });
+
+                vaarta.and("Husband", "Wow! this smell is ... making me hungry")
+                            .and("Wife", "Wait!!", 100)
+                            .speak("Wife", "I said wait. You can't eat..", 3200)
+                            .and("Husband", "but .. ", 300)
+                            .and("Wife", "let's the guests take first", 300)
+                            .speak("Husband", "come on!!", 2500)
+                            .speak("Husband", "I'm just tasting if they're cooked well", 1000)
+                            .and("Wife", "I cooked them", 0)
+
+                //vaarta.start();
+            });
+        </script>
+    </body>
+</html>
