@@ -8,6 +8,7 @@ function TalkingNode(actor, count, delay, last ){
     if(last){
         var that = this;
         last.actor.on('pause', function(){
+            actor.stop();
             setTimeout( function(){
                 actor.start(count);
             }, that.delay);
@@ -30,6 +31,7 @@ function Vaarta(){
 
 //register an actor
 Vaarta.prototype.add = function(actorName, el, opts){
+    opts.repeat = false;
     this.actors[actorName] = {
         target : el,
         options: opts
