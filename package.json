@@ -1,6 +1,6 @@
 {
   "name": "vaarta",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Talking effect over typing effect using shabdawali js",
   "main": "src/varta.js",
   "scripts": {
