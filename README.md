@@ -2,7 +2,7 @@
 
 Conversation effect over typing effect by [शब्दावली (shabdawali)](http://amitkumargupta.work/shabdawali/)
 
-
+<div align="center"><img src="static/vaarta.gif"></div>
 
 ## How to use
 
