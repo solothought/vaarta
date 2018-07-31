@@ -16,7 +16,9 @@
     "conversation",
     "effect",
     "typing",
-    "shabdawali"
+    "shabdawali",
+    "speaker",
+    "actor"
   ],
   "author": "Amit Kumar Gupta",
   "license": "MIT",
