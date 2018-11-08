@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/amitguptagwl/vaarta#readme",
   "devDependencies": {
-    "browserify": "^16.2.2"
+    "browserify": "^16.2.3"
   },
   "dependencies": {
     "shabdawali": "^2.1.0"
