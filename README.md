@@ -15,7 +15,7 @@ vaarta.add("Husband", document.getElementById("amit"), {
     typoEffect: true,
     deleteEffect : false,
 });
-vaarta.add("Wife", document.getElementById("nushi") , {
+vaarta.add("Wife", document.getElementById("arti") , {
     deleteEffect : false,
 });
 
